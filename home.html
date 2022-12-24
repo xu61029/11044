@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function pokemon(name, cp, hp,cm,kg,category){
+            this.name=name;
+            this.cp=cp;
+            this.hp=hp;
+            this.cm=cm;
+            this.kg=kg;
+            this.category=category;
+            this.print=print;
+        }
+        function print(){
+            document.write("名稱"+this.name+"<br>");
+            document.write("cp值"+this.cp+"<br>");
+            document.write("hp值"+this.hp+"<br>");
+            document.write("體重"+this.kg+"<br>");
+            document.write("身高"+this.cm+"<br>");
+            document.write("類別"+this.category+"<br><hr>");
+        }
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr><img src="Mareep.jpg" style="vertical-align:middle;"></tr>
+        <tr>   
+            <script>          
+                let a =new pokemon("Mareep","481","66","0.56m","4.35kg"," 電");
+                a.print();       
+            </script> 
+        </tr> 
+    </table>
+       
+</body>
+</html>

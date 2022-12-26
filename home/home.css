@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: "ChenYuluoyan-Thin";;
+    
+} 
+.gotop {
+    z-index: 10;          
+    position: fixed;      
+    top: 85%;
+    left: 90%;
+    opacity: 0.80; 
+}
+header{
+    background-color: rgba(131, 192, 236, 0.451);
+}
+.topmenu{
+    margin: 0px;
+    padding: 0.5px;
+    
+    
+}
+.logo{
+    background-image: url(img/logo.jpg);
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-indent: 101%;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.list ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    background-color: aqua;
+}
+.list ul li{
+    float:left;
+    margin-top: 50px;
+    margin-right: 250px;
+    
+ }
+.listlink{
+    text-decoration: none;
+    color:black;
+}
+.listleft{
+    float: left;
+}
+.listright{
+    float: right;
+    
+}
+
+
+
+

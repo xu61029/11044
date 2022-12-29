@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbf7f4;
+}
+
+footer {
+    background-color: #a1683a;
+    padding: 5%;
+}
+
+.d-foot {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.align-cen {
+    text-align: center;
+}
+
+.div-center {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.d1 {
+    border-style: solid;
+    border-color: #eed2cc;
+    background-color: #fbf7f4;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.d2 {
+    margin: 10px;
+}
+
+.d3 {
+    margin-left: 20%;
+}
+
+.d4 {
+    width: auto;
+    height: 25px;
+}
+
+.w1 {
+    color: #5d5957;
+}
+
+.w2 {
+    color: #5d5957;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.wb {
+    font-weight: bold;
+}
+
+.i1 {
+    border-radius: 10px;
+}
+
+.tb {
+    border-style: solid;
+    border-color: #5d5957;
+}
+
+.tbb {
+    background-color: white;
+}
+
+.b1-1 {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b1-1:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b1-2 {
+    border-style: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b1-2:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b2 {
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+}
+
+.b2:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+.b3 {
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5d5957;
+    color: #fbf7f4;
+    border-radius: 30px;
+}
+
+.b3:hover {
+    background-color: #c3bbb6;
+    color: #5d5957;
+}
+
+
+
+
+/*header*/
+
+.topmenu {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-width: medium;
+    z-index: 1000;
+}
+
+.gotop {
+    z-index: 10;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    opacity: 0.80;
+}
+
+.logo a {
+    padding: 0;
+    background-image: url(../about/image/logo.png);
+    background-size: 100%;
+    float: left;
+    margin-left: 10%;
+    width: 150px;
+    height: 100px;
+    border-radius: 2px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.list {
+    padding: 20 10px;
+    /* width: 80%; */
+    padding-top: 30px;
+    margin-left: 15%;
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-around;
+
+}
+
+.list a :hover {
+    color: #A1683A
+}
+
+li {
+    display: inline;
+    padding: 10px 20px;
+
+}
+
+.listleft1 {
+    left: 40%;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+    height: 100px;
+    width: 72px;
+    color: black;
+
+}
+
+.listleft2 {
+    left: 60%;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.listright1 {
+    overflow: hidden;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 190px;
+
+}
+
+.listright2 a {
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 5px;
+    position: absolute;
+    right: 150px;
+    background-image: url(../about/image/member.png);
+    background-size: cover;
+    float: left;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.listright3 a {
+    height: 30px;
+    width: 30px;
+    background-image: url(../about/image/shopcar.png);
+    overflow: hidden;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 90px;
+    background-color: transparent;
+    object-fit: fill;
+    background-size: contain;
+    float: left;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.f1 {
+    height: 100px;
+}
+
+/*header end*/
